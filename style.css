@@ -1,0 +1,23 @@
+.colorchange{
+    animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange{
+    0%{
+        color: skyblue;
+    }
+    25%{
+        color: rgb(250, 245, 245);
+    }
+    50%{
+        color: rgb(119, 53, 163);
+    }
+    100%{
+        color: rgb(221, 206, 72);
+    }
+    }
+    
+    .box{
+        border: solid 2px black;
+    
+    }
